@@ -53,6 +53,14 @@ module.exports = function(lineman) {
             text: 'foo',
             options: {log:true}
         }
+    },
+
+    prependTasks: {
+        common: ['meetup']
+    },
+
+    appendTasks: {
+        common: ['meetup:hello']
     }
 
   };
