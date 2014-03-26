@@ -5,7 +5,8 @@
   "private": true,
   "author": "John Doe",
   "devDependencies": {
-    "lineman": "~0.28.0"
+    "lineman": "~0.28.0",
+    "grunt-asciify": "~0.2.2"
   },
   "scripts": {
     "start": "lineman run",
