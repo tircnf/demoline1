@@ -16,7 +16,11 @@ module.exports = function(lineman) {
        vendor: [
          "vendor/bower/angular/angular.js",
          "vendor/js/**/*.js"
-       ]
+       ],
+       app: [
+         "app/js/app.js",
+         "app/js/**/*.js"
+       ],
      }
 
   };
