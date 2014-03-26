@@ -46,5 +46,14 @@ module.exports = function(lineman) {
     //
     // enableAssetFingerprint: true
 
+    loadNpmTasks: ['grunt-asciify'],
+
+    asciify: {
+        foo: {
+            text: 'foo',
+            options: {log:true}
+        }
+    }
+
   };
 };
