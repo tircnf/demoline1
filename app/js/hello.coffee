@@ -1,4 +1,4 @@
-window.helloText = -> 'Hello, World!'
+window.helloText = -> 'Hello, Meetup!'
 
 window.hello = ->
   html = JST['app/templates/hello.us'](text: helloText())
