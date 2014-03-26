@@ -1,0 +1,20 @@
+{
+  "name": "demoline1",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tircnf/demoline1",
+  "authors": [
+    "mburns <mburns@availity.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.15"
+  }
+}
